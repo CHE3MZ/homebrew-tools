@@ -1,26 +1,26 @@
 class Gitagger < Formula
   desc "Create and push Git tags for your repository"
   homepage "https://che3mz.github.io/gitagger/"
-  version "1.1.9"
+  version "1.2.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.1.9/gitagger_Darwin_arm64.tar.gz"
-      sha256 "f618b6f4d3789774545f9418718db46a62fea21c1710620826e638ef341e153d"
+      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.0/gitagger_Darwin_arm64.tar.gz"
+      sha256 "f813b1c8dda0c4def462b941e6ade39daf34c01a8f3a868fb69fb9f949d2462c"
     else
-      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.1.9/gitagger_Darwin_x86_64.tar.gz"
-      sha256 "1275f6f2e4ff39928e39080451bc66add2f00eea26303c06db3375632b04029f"
+      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.0/gitagger_Darwin_x86_64.tar.gz"
+      sha256 "204a34a5116dec08b7c0d989947544f1c541bccbde3ca9676f2d777c5e194b0c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.1.9/gitagger_Linux_arm64.tar.gz"
-      sha256 "8d60e0348e1f789c5732dc042db86423b16156a52cddc074955276835d162fbc"
+      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.0/gitagger_Linux_arm64.tar.gz"
+      sha256 "ce483df1e506fc70688624f553aa91a99280f78f47c4a19cf2e02a2c544287aa"
     else
-      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.1.9/gitagger_Linux_x86_64.tar.gz"
-      sha256 "3a997435e1706267a7bf5c30e9d025ec1dae8c6e5da10f0e0b931ce296b036ec"
+      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.0/gitagger_Linux_x86_64.tar.gz"
+      sha256 "f1638c540593e29920b7ac6e021efb417265da90a3f66a32e5bbc0a621421ce6"
     end
   end
 
