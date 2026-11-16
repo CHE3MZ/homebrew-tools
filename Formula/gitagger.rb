@@ -10,21 +10,21 @@ class Gitagger < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.0/gitagger_Darwin_arm64.tar.gz"
-      sha256 "f813b1c8dda0c4def462b941e6ade39daf34c01a8f3a868fb69fb9f949d2462c"
+      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.1/gitagger_Darwin_arm64.tar.gz"
+      sha256 "12c7381e35ab588460684383a28d801a4502f24ec4cc0298491959d7762fb98a"
     else
-      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.0/gitagger_Darwin_x86_64.tar.gz"
-      sha256 "204a34a5116dec08b7c0d989947544f1c541bccbde3ca9676f2d777c5e194b0c"
+      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.1/gitagger_Darwin_x86_64.tar.gz"
+      sha256 "0066e69e8452eaff4d7b004c42676337ac3279c6a07d980ad35fb78697c43e75"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.0/gitagger_Linux_arm64.tar.gz"
-      sha256 "ce483df1e506fc70688624f553aa91a99280f78f47c4a19cf2e02a2c544287aa"
+      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.1/gitagger_Linux_arm64.tar.gz"
+      sha256 "2a9977bd660366d1c007b5919cac1542f4542400855a1c52c137d0917a346c8a"
     else
-      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.0/gitagger_Linux_x86_64.tar.gz"
-      sha256 "f1638c540593e29920b7ac6e021efb417265da90a3f66a32e5bbc0a621421ce6"
+      url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.1/gitagger_Linux_x86_64.tar.gz"
+      sha256 "6f73b56071bee24b7ede0ba0848947cf046956395171cef1dacdf8b1971ba8ca"
     end
   end
 
