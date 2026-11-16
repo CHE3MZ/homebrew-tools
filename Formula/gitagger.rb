@@ -1,8 +1,12 @@
 class Gitagger < Formula
   desc "Create and push Git tags for your repository"
   homepage "https://che3mz.github.io/gitagger/"
-  version "1.2.0"
   license "Apache-2.0"
+
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
 
   on_macos do
     if Hardware::CPU.arm?
@@ -22,11 +26,6 @@ class Gitagger < Formula
       url "https://github.com/CHE3MZ/gitagger/releases/download/v1.2.0/gitagger_Linux_x86_64.tar.gz"
       sha256 "f1638c540593e29920b7ac6e021efb417265da90a3f66a32e5bbc0a621421ce6"
     end
-  end
-
-  livecheck do
-    url :stable
-    strategy :github_latest
   end
 
   def install
